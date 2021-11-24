@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.akun a {
+  text-decoration-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-right: 30px;
+
+}
+
+.btn {
+  border: none;
+  width: 140px;
+  height: 50px;
+  background-color: #FF7048;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.hero {
+  position: absolute;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.title {
+  position: relative;
+  margin-left: 200px;
+  padding-top: 100px;
+}
+
+.title h2{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.title p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #383430;
+  margin-top: 38px;
+}
+
+.row {
+  position: relative;
+  margin-left: 200px;
+}
+
+.left{
+  width: 40px;
+}
